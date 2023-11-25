@@ -6,7 +6,7 @@ import base64
 import sklearn
 
 #-----------Background Image--------------
-#@st.cache_data()
+# @st.cache_data()
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:
         data = f.read()

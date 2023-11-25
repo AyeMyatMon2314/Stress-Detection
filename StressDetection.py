@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import base64
+import sklearn
 
 #-----------Background Image--------------
 @st.cache_data()
@@ -46,7 +47,6 @@ def set_png_as_header(png_file):
     return
 
 set_png_as_page_bg('Saxon-bg.png')
-#set_png_as_header('Cover.png')
 
 
 #-----------Background Image--------------

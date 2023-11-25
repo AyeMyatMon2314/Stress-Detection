@@ -2,3 +2,4 @@ streamlit==1.2.0
 pickle-mixin
 numpy
 base64
+sklearn
